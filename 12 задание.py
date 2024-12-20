@@ -1,4 +1,4 @@
-class User:
+class Employee:
     
     def __init__(self,name,salary):
         self.name = name
@@ -13,7 +13,7 @@ class User:
     def proc(self):
         return self.salary + (self.salary / 100)*10
    
-user = User('Romanov', 300)
+user = Employee('Romanov', 300)
 
 user.show()
 user.sal()
