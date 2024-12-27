@@ -19,7 +19,7 @@ class Employee:
         if (age > 0 and age < 120):
             self.__age = age
         else:
-            raise Exception('age is incorrect!')
+            self.__age = 'age is incorrect!'
 
     
     def setSalary(self,salary):
